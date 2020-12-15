@@ -1,0 +1,24 @@
+version: test_20201201
+devOwner: 朱世龙
+backend:
+  name: questionbank
+  pom:
+    version: 1.0.0
+  svn:
+    branches: https://wwwcheck.niceloo.com/QuestionBank
+sql:
+  database:
+    name: questionbank
+    url: https://wwwcheck.niceloo.com/update.sql
+config:
+  url: "http://wwwcheck.niceloo.com/question.properties"
+gateway:
+  api:
+    url: "http://wwwcheck.niceloo.com/questionbank.zip"
+frontend:
+  svn:
+    branches: https://wwwcheck.niceloo.com/uadmin
+  uadmin:
+    module:
+      name: qb
+      version: 1.0.0
