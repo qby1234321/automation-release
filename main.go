@@ -133,7 +133,7 @@ func main() {
 	// 因为结果是字节数组，需要转换成string
 	fmt.Println(string(output))
 
-	jenkinsUrl := "http://admin:114076b5e68e073f1a429f20f7a6810903@jenkins-check.niceloo.com:8080/view/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%95%B0%E6%8D%AE%E5%BA%93-%E6%96%B0%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E5%8F%91%E5%B8%83/job/SQL_DevOps/buildWithParameters"
+	jenkinsUrl := ""
 	httpPost(jenkinsUrl)
 }
 
